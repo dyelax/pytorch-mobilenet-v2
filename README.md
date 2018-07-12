@@ -14,11 +14,11 @@ I am currently training the model with SGD and keeping other hyper-parameters th
 
 The top-1 accuracy on the ImageNet from the paper is **71.7%**. Our current result is **slightly higher**:
 
-| Optimizer     | Epoch | Top1-acc  | Pretrained Model                                             |
-| ------------- | ----- | --------- | ------------------------------------------------------------ |
-| RMSprop       | -     | -         | -                                                            |
-| SGD           | -     | **71.8%** | [[google drive](https://drive.google.com/file/d/1nFZhtKQcw_PeMg8ZZDLdWBcnzqx67hY9/view?usp=sharing)] |
-| SGD + RMSprop | TODO  | TODO      | TODO                                                         |
+| Optimizer     | Epoch | Top1-acc  | Top5-acc  | Pretrained Model                                             |
+| ------------- | ----- | --------- | --------- | ------------------------------------------------------------ |
+| RMSprop       | -     | -         | -         | -                                                            |
+| SGD           | -     | **71.8%** | **90.5%** | [[google drive](https://drive.google.com/file/d/1nFZhtKQcw_PeMg8ZZDLdWBcnzqx67hY9/view?usp=sharing)] |
+| SGD + RMSprop | TODO  | TODO      | TODO      | TODO                                                         |
 
 ## Usage
 To use the pretrained model, run
